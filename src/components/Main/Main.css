@@ -1,0 +1,16 @@
+#main {
+    display: flex;
+    flex-direction: column; /* Vertical layout */
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* z-index: -2; */
+  }
+  
+  #pfp {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
